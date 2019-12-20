@@ -1,0 +1,69 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+/*header*/
+header.header{
+	width: 100%;
+}
+header.header nav.navbar{
+	background-color: black;
+	height: 80px;
+	width: 100%;
+
+}
+header.header div.navbar-collapse{
+	width: 100%;
+	background-color: black;
+}
+div.row-header,div.container-header{
+	height: 100%;
+}
+header.header nav.navbar a.logo-header{
+	margin-right: 10%;
+}
+header.header nav.navbar a.logo-header img{
+	max-width: 165px;
+	height: auto;
+	object-fit: cover;
+	margin-right: 10%;
+}
+header.header nav.navbar ul li{
+	width: 110px;
+	margin-right: 10px;
+}
+header.header nav.navbar ul li:last-of-type{
+	font-size: 15px;
+	color: #fdb913;
+	text-align: center;
+}
+header.header nav.navbar ul li:last-of-type a{
+	width: 35px;
+	height: 35px;
+  border: 1px solid;
+  border-radius: 50%;
+  display: flex;
+	justify-content: center;
+  margin-left: 10px;
+}
+header.header nav.navbar ul li:last-of-type a i{
+	margin-top: 8px;
+}
+header.header nav.navbar ul li a{
+	color:#fdb913;
+	text-transform: uppercase;
+	font-family: 'UTM_APTIMA';
+
+}
+header.header nav.navbar ul li a:hover{
+	color: #e2e2e2;
+}
+div.header-right .navbar{
+	justify-content: flex-end;
+}
+button.navbar-toggler{
+
+}
+.custom-toggler.navbar-toggler {
+    border-color: rgb(253,185,19);
+}

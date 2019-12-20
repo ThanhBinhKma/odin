@@ -1,0 +1,25 @@
+@media screen and (min-width:991px){
+	header.header nav.navbar{
+		padding:0 10% 0 10%;
+	}
+}
+@media screen and (max-width: 768px){
+	header.header nav.navbar{
+		padding:0;
+	}
+	header.header nav.navbar a.logo-header{
+		margin-left: 16px;
+	}
+	header.header nav.navbar ul li{
+		width: 100%;
+		margin-right: 0;
+		text-align: center;
+	}
+	header.header nav.navbar ul li:last-of-type a{
+		margin: auto;
+		margin-bottom: 10px;
+	}
+	button.navbar-toggler{
+		margin-right: 16px;
+	}
+}
